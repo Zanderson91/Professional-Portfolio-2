@@ -5928,7 +5928,7 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
   }
   .navbar-expand-lg .navbar-nav {
@@ -5949,7 +5949,7 @@ textarea.form-control-lg {
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
-    display: none;
+    display: flex;
   }
 }
 
@@ -18657,7 +18657,7 @@ body {
 
 @media (max-width: 991.98px) {
   .navbar-marketing.bg-transparent.navbar-dark {
-    background-color: #212832 !important;
+ 
   }
   .navbar-marketing.bg-transparent.navbar-light {
     background-color: #fff !important;
