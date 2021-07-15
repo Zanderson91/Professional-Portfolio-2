@@ -2,6 +2,11 @@
 
 https://zanderson91.github.io/Professional-Portfolio-2/
 
+![image](https://user-images.githubusercontent.com/81836426/125803654-c8bae510-46aa-485a-ab23-5a01dcd8bb56.png)
+![image](https://user-images.githubusercontent.com/81836426/125803814-20132f44-9415-4650-a28e-04281a4ae460.png)
+
+
+
 # 08 Project 1: Professional Materials
 
 Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
