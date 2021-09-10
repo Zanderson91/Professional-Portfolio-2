@@ -1,363 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1,
             shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Zack Anderson - Web Dev</title>
-    <link href="./styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    <script data-search-pseudo-elements defer
-        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous">
-    </script>
-</head>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Zack Anderson - Web Dev</title>
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-<body>
-    <div id="layoutDefault">
-        <div id="layoutDefault_content">
-            <main>
-                <!-- Navbar-->
-                <nav class="navbar navbar-marketing navbar-expand-lg
+        <script data-search-pseudo-elements defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js"
+            crossorigin="anonymous">
+            </script>
+    </head>
+
+    <body>
+        <div id="layoutDefault">
+            <div id="layoutDefault_content">
+                <main>
+                    <!-- Navbar-->
+                    <nav class="navbar navbar-marketing navbar-expand-lg
                         bg-transparent navbar-dark fixed-top">
-                    <div class="container px-5">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle
+                        <div class="container px-5">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle
                                 navigation"><i data-feather="menu"></i></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto me-lg-5">
-                                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a>
-                                <li class="nav-item dropdown dropdown-xl
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto me-lg-5">
+                                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a>
+                                    <li class="nav-item dropdown dropdown-xl
                                             no-caret">
-                                    <a role="button" data-bs-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false"></a>
-                                    <a class="nav-link" href="./index2.html">Resume</a>
-                                </li>
-                                <li class="nav-item dropdown dropdown-xl
+                                        <a role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false"></a>
+                                        <a class="nav-link" href="./index2.html">Resume</a>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-xl
                                             no-caret">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Projects
-                                        <i class="fas fa-chevron-right
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Projects
+                                            <i class="fas fa-chevron-right
                                                     dropdown-arrow"></i>
-                                    </a>
-                                    <div class="dropdown-menu
+                                        </a>
+                                        <div class="dropdown-menu
                                                 dropdown-menu-end me-lg-n20
                                                 me-xl-n15 animated--fade-in-up" aria-labelledby="navbarDropdownPages">
-                                        <div class="row g-0">
-                                            <div class="col-lg-2
+                                            <div class="row g-0">
+                                                <div class="col-lg-2
                                                         p-lg-2">
-                                                <h6 class="dropdown-header
+                                                    <h6 class="dropdown-header
                                                             text-primary">Featured
-                                                    Projects and
-                                                    Assignments</h6>
-                                                <a class="dropdown-item"
-                                                    href="https://zanderson91.github.io/What-To-Watch/">What
-                                                    to Watch?
-                                                    (Project
-                                                    #1)</a>
-                                                <a class="dropdown-item"
-                                                    href="https://zanderson91.github.io/Work-Day-Scheduler/">Work
-                                                    Day
-                                                    Scheduler</a>
-                                                <a class="dropdown-item"
-                                                    href="https://zanderson91.github.io/Optimized-Password-Generator/">Password
-                                                    Generator</a>
-                                                <div class="dropdown-divider
+                                                        Projects and
+                                                        Assignments</h6>
+                                                    <a class="dropdown-item"
+                                                        href="https://zanderson91.github.io/What-To-Watch/">What
+                                                        to Watch?
+                                                        (Project
+                                                        #1)</a>
+
+                                                    <a class="dropdown-item"
+                                                        href="https://github.com/Zanderson91/mvc-tech-blog">MVC-Tech-Blog</a>
+
+                                                    <a class="dropdown-item"
+                                                        href="https://github.com/Zanderson91/ORM-ecommerce-back-end">E-Commerce
+                                                        Back-End Builder</a>
+
+                                                    <a class="dropdown-item"
+                                                        href="https://zanderson91.github.io/Work-Day-Scheduler/">Work
+                                                        Day
+                                                        Scheduler</a>
+
+                                                    <a class="dropdown-item"
+                                                        href="https://zanderson91.github.io/Optimized-Password-Generator/">Password
+                                                        Generator</a>
+
+                                                    <div class="dropdown-divider
                                                             border-0"></div>
-                                                <h6 class="dropdown-header
+                                                    <h6 class="dropdown-header
                                                             text-primary">Portfolio</h6>
-                                                <a class="dropdown-item" href="./index3.html">Full Portfolio</a>
-                                                <div class="dropdown-divider
+                                                    <a class="dropdown-item" href="./index3.html">Full Portfolio</a>
+                                                    <div class="dropdown-divider
                                                             border-0 d-lg-none"></div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
-                <!-- Page Header-->
-                <header class="page-header-ui page-header-ui-dark
+                    </nav>
+                    <!-- Page Header-->
+                    <header class="page-header-ui page-header-ui-dark
                             bg-gradient-primary-to-secondary">
-                    <div class="page-header-ui-content pt-10">
-                        <div class="container px-5">
-                            <div class="row gx-5 align-items-center">
-                                <div class="col-lg-6" data-aos="fade-up">
-                                    <h1 class="page-header-ui-title">Zack
-                                        Anderson <br> Full-Stack Web
-                                        Development</h1>
-                                    <p class="page-header-ui-text mb-5">Web
-                                        and Software Developer with
-                                        dynamic and
-                                        purposeful passion for creating
-                                        and engineering solutions. Eager
-                                        to grow and
-                                        develop amidst the ever evolving
-                                        trends and technologies.
-                                        Experience
-                                        demonstrated in streamlining
-                                        educational organizations and
-                                        achieving new
-                                        standards within web
-                                        development, project management
-                                        and financial
-                                        improvement.
-                                        Well equipped with skills that
-                                        contribute to overall product
-                                        growth and
-                                        capability. </p>
-                                    <div class="row gx-5">
-                                        <div class="col-lg-3">
-                                            <div class="icon-list-social
+                        <div class="page-header-ui-content pt-10">
+                            <div class="container px-5">
+                                <div class="row gx-5 align-items-center">
+                                    <div class="col-lg-6" data-aos="fade-up">
+                                        <h1 class="page-header-ui-title">Zack
+                                            Anderson <br> Full-Stack Web
+                                            Development</h1>
+                                        <p class="page-header-ui-text mb-5">Web
+                                            and Software Developer with
+                                            dynamic and
+                                            purposeful passion for creating
+                                            and engineering solutions. Eager
+                                            to grow and
+                                            develop amidst the ever evolving
+                                            trends and technologies.
+                                            Experience
+                                            demonstrated in streamlining
+                                            educational organizations and
+                                            achieving new
+                                            standards within web
+                                            development, project management
+                                            and financial
+                                            improvement.
+                                            Well equipped with skills that
+                                            contribute to overall product
+                                            growth and
+                                            capability. </p>
+                                        <div class="row gx-5">
+                                            <div class="col-lg-3">
+                                                <div class="icon-list-social
                                                         mb-4">
-                                                <a class="icon-list-social-link"
-                                                    href="https://www.linkedin.com/in/zack-anderson-2021"><i class="fab
+                                                    <a class="icon-list-social-link"
+                                                        href="https://www.linkedin.com/in/zack-anderson-2021"><i class="fab
                                                                 fa-linkedin"></i></a>
-                                                <a class="icon-list-social-link"
-                                                    href="https://www.instagram.com/zanderson2012/"><i class="fab
-                                                                fa-instagram"></i></a>
-                                                <a class="icon-list-social-link"
-                                                    href="https://www.facebook.com/Zanderson91"><i class="fab
+                                                    <!-- <a class="icon-list-social-link"
+                                                        href="https://www.instagram.com/zanderson2012/"><i class="fab
+                                                                fa-instagram"></i></a> -->
+                                                    <a class="icon-list-social-link"
+                                                        href="https://www.facebook.com/Zanderson91"><i class="fab
                                                                 fa-facebook"></i></a>
-                                                <a class="icon-list-social-link"
-                                                    href="https://www.github.com/Zanderson91"><i class="fab
+                                                    <a class="icon-list-social-link"
+                                                        href="https://www.github.com/Zanderson91"><i class="fab
                                                                 fa-github"></i></a>
+                                                </div>
                                             </div>
                                         </div>
+                                        <a class="btn btn-light fw-500 me-2" href="./index2.html">
+                                            Read More
+                                            <i class="ms-2" data-feather="arrow-right"></i>
+                                        </a>
                                     </div>
-                                    <a class="btn btn-light fw-500 me-2" href="./index2.html">
-                                        Read More
-                                        <i class="ms-2" data-feather="arrow-right"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100"><img
-                                        class="img-fluid" src="./assets/Screen Shot 2019-03-28 at 3.35.05 PM.png"/>
+                                    <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100"><img
+                                            class="img-fluid" src="./assets/Screen Shot 2019-03-28 at 3.35.05 PM.png" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </header>
-                <section class="bg-transparent py-10">
-                    <div class="container px-5">
-                        <div class="row gx-5 text-center">
-                            <div class="col-lg-4 mb-5 mb-lg-0">
-                                <div class="icon-stack icon-stack-xl
-                                            bg-gradient-primary-to-secondary
-                                            text-white mb-4">
-                                    <i class="fas fa-desktop"></i>
-                                </div>
-                                <h3>UI/UX Sensibility</h3>
-                                <p class="mb-0">Collaborating and
-                                    building frameworks while designing
-                                    content for new and
-                                    existing sites.</p>
-                            </div>
-                            <div class="col-lg-4 mb-5 mb-lg-0">
-                                <div class="icon-stack icon-stack-xl
-                                            bg-gradient-primary-to-secondary
-                                            text-white mb-4">
-                                    <i class="fas fa-handshake"></i>
-                                </div>
-                                <h3>Servant Leadership</h3>
-                                <p class="mb-0">Effective communication
-                                    within departments to establish
-                                    clear goals and develop
-                                    concise channels to optimize
-                                    communication patterns.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="icon-stack icon-stack-xl
-                                            bg-gradient-primary-to-secondary
-                                            text-white mb-4">
-                                    <i class="fas fa-chart-line"></i>
-                                </div>
-                                <h3>Agile Methodologies</h3>
-                                <p class="mb-0">Proactively identifying
-                                    issues and/or opportunities and
-                                    providing solutions.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="bg-gradient-primary-to-secondary py-2">
-                    <div class="container px-5">
-                        <div class="row gx-5 my-10">
-                            <div class="col-lg-6 mb-5">
-                                <div class="d-flex h-100">
+                    </header>
+                    <section class="bg-transparent py-10">
+                        <div class="container px-5">
+                            <div class="row gx-5 text-center">
+                                <div class="col-lg-4 mb-5 mb-lg-0">
                                     <div class="icon-stack icon-stack-xl
+                                            bg-gradient-primary-to-secondary
+                                            text-white mb-4">
+                                        <i class="fas fa-desktop"></i>
+                                    </div>
+                                    <h3>UI/UX Sensibility</h3>
+                                    <p class="mb-0">Collaborating and
+                                        building frameworks while designing
+                                        content for new and
+                                        existing sites.</p>
+                                </div>
+                                <div class="col-lg-4 mb-5 mb-lg-0">
+                                    <div class="icon-stack icon-stack-xl
+                                            bg-gradient-primary-to-secondary
+                                            text-white mb-4">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <h3>Servant Leadership</h3>
+                                    <p class="mb-0">Effective communication
+                                        within departments to establish
+                                        clear goals and develop
+                                        concise channels to optimize
+                                        communication patterns.</p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="icon-stack icon-stack-xl
+                                            bg-gradient-primary-to-secondary
+                                            text-white mb-4">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <h3>Agile Methodologies</h3>
+                                    <p class="mb-0">Proactively identifying
+                                        issues and/or opportunities and
+                                        providing solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="bg-gradient-primary-to-secondary py-2">
+                        <div class="container px-5">
+                            <div class="row gx-5 my-10">
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl
                                                 bg-teal text-white mb-4"><i class="fab fa-html5"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <h5 class="text-white">Clear
-                                            HTML</h5>
-                                        <p class="text-white-50">Providing
-                                            clients with clear and
-                                            thoughtful code.</p>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Clear
+                                                HTML</h5>
+                                            <p class="text-white-50">Providing
+                                                clients with clear and
+                                                thoughtful code.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 mb-5">
-                                <div class="d-flex h-100">
-                                    <div class="icon-stack icon-stack-xl
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl
                                                 bg-teal text-white mb-4"><i class="fab fa-css3-alt"></i></div>
-                                    <div class="ms-4">
-                                        <h5 class="text-white">Concise
-                                            CSS</h5>
-                                        <p class="text-white-50">Unique
-                                            stylings provided to fit the
-                                            needs of any site.
-                                        </p>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Concise
+                                                CSS</h5>
+                                            <p class="text-white-50">Unique
+                                                stylings provided to fit the
+                                                needs of any site.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 mb-5 mb-lg-0">
-                                <div class="d-flex h-100">
-                                    <div class="icon-stack icon-stack-xl
+                                <div class="col-lg-6 mb-lg-0">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl
                                                 bg-teal text-white mb-4"><i class="fab fa-js-square"></i></div>
-                                    <div class="ms-4">
-                                        <h5 class="text-white">JavaScript
-                                            Integration</h5>
-                                        <p class="text-white-50">Utilizing
-                                            JS for site functionality.</p>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">JavaScript
+                                                Integration</h5>
+                                            <p class="text-white-50">Understanding of JavaScript languages and best practices</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="d-flex h-100">
-                                    <div class="icon-stack icon-stack-xl
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl
                                                 bg-teal text-white mb-4"><i class="fab fa-node-js"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <h5 class="text-white">Node</h5>
-                                        <p class="text-white-50">More
-                                            information to come along
-                                            with more languages.</p>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Node</h5>
+                                            <p class="text-white-50">More
+                                                information to come along
+                                                with more languages.</p>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl bg-teal text-white mb-4"><i
+                                                class="devicon-express-original"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Express</h5>
+                                            <p class="text-white-50">Knowledge of extended Node frameworks for web and
+                                                mobile apps along with API integration.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl bg-teal text-white mb-4"><i
+                                                class="devicon-handlebars-plain"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Handlebars</h5>
+                                            <p class="text-white-50">Template language used in many applications.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl bg-teal text-white mb-4"><i
+                                                class="devicon-react-original"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">React</h5>
+                                            <p class="text-white-50">Using React framework for creative and interactive
+                                                UI.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="d-flex h-100">
+                                        <div class="icon-stack icon-stack-xl bg-teal text-white mb-4"><i class="devicon-sequelize-plain"></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <h5 class="text-white">Sequelize</h5>
+                                            <p class="text-white-50">Knowledge of ORM for in depth applications using models and classes.                                               
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="svg-border-rounded text-white">
-                        <!-- Rounded SVG Border-->
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
-                            fill="#f2f6fc">
-                            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
-                        </svg>
-                    </div>
-                </section>
-                <section class="bg-light py-10">
-                    <div class="container px-10">
-                        <div class="row gx-5 align-items-center
+                        <div class="svg-border-rounded text-white">
+                            <!-- Rounded SVG Border-->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34"
+                                preserveAspectRatio="none" fill="#f2f6fc">
+                                <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0">
+                                </path>
+                            </svg>
+                        </div>
+                    </section>
+                    <section class="bg-light py-10">
+                        <div class="container px-10">
+                            <div class="row gx-5 align-items-center
                                     justify-content-center">
-                            <div class="col-md-9 col-lg-6 order-1
+                                <div class="col-md-9 col-lg-6 order-1
                                         order-lg-0" data-aos="fade-right">
-                                <div class="content-skewed
+                                    <div class="content-skewed
                                             content-skewed-right"><img class="content-skewed-item
                                                 img-fluid shadow-lg rounded-3"
-                                        src="./assets/Aerial-Background-home-desk.jpg" alt="..." /></div>
-                            </div>
-                            <div class="col-lg-6 order-0 order-lg-1 mb-5
+                                            src="./assets/Aerial-Background-home-desk.jpg" alt="..." /></div>
+                                </div>
+                                <div class="col-lg-6 order-0 order-lg-1 mb-5
                                         mb-lg-0" data-aos="fade-left">
-                                <div class="mb-5">
-                                    <h2>What you can expect from me</h2>
-                                    <p class="lead">With any project, my
-                                        aim is to best engage the
-                                        audience with an incredible
-                                        user experience. Known for
-                                        service and for an immense
-                                        passion for development, I am
-                                        confident that my
-                                        cross-functionality from
-                                        education to software
-                                        engineering will lead
-                                        to overall business growth.</p>
-                                </div>
-                                <div class="row gx-5">
-                                    <div class="col-md-6 mb-4">
-                                        <h6>Resume</h6>
-                                        <p class="mb-2 small">Take a
-                                            look at my history and get a
-                                            more in depth look at my
-                                            experience.</p>
-                                        <a class="small text-arrow-icon" href="./index2.html">
-                                            Learn More
-                                            <i data-feather="arrow-right"></i>
-                                        </a>
+                                    <div class="mb-5">
+                                        <h2>What you can expect from me</h2>
+                                        <p class="lead">With any project, my
+                                            aim is to best engage the
+                                            audience with an incredible
+                                            user experience. Known for
+                                            service and for an immense
+                                            passion for development, I am
+                                            confident that my
+                                            cross-functionality from
+                                            education to software
+                                            engineering will lead
+                                            to overall business growth.</p>
                                     </div>
-                                    <div class="col-md-6 mb-4">
-                                        <h6>Projects</h6>
-                                        <p class="mb-2 small mb-0">Take
-                                            a look at some recent
-                                            projects I have been working
-                                            on.
-                                        </p>
-                                        <a class="small text-arrow-icon" href="./index3.html">
-                                            Learn More
-                                            <i data-feather="arrow-right"></i>
-                                        </a>
+                                    <div class="row gx-5">
+                                        <div class="col-md-6 mb-4">
+                                            <h6>Resume</h6>
+                                            <p class="mb-2 small">Take a
+                                                look at my history and get a
+                                                more in depth look at my
+                                                experience.</p>
+                                            <a class="small text-arrow-icon" href="./index2.html">
+                                                Learn More
+                                                <i data-feather="arrow-right"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <h6>Projects</h6>
+                                            <p class="mb-2 small mb-0">Take
+                                                a look at some recent
+                                                projects I have been working
+                                                on.
+                                            </p>
+                                            <a class="small text-arrow-icon" href="./index3.html">
+                                                Learn More
+                                                <i data-feather="arrow-right"></i>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row gx-5">
+                                    <div class="row gx-5">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <hr class="m-0" />
-            </main>
-            <div id="layoutDefault_footer">
-                <footer class="footer pt-10 pb-5 mt-auto bg-dark
+                    </section>
+                    <hr class="m-0" />
+                </main>
+                <div id="layoutDefault_footer">
+                    <footer class="footer pt-10 pb-5 mt-auto bg-dark
                             footer-dark">
-                    <div class="container px-5">
-                        <div class="row gx-5">
-                            <div class="col-lg-3">
-                                <div class="icon-list-social mb-5">
-                                    <a class="icon-list-social-link"
-                                        href="https://www.linkedin.com/in/zack-anderson-2021"><i
-                                            class="fab fa-linkedin"></i></a>
-                                    <a class="icon-list-social-link" href="https://www.instagram.com/zanderson2012/"><i
-                                            class="fab fa-instagram"></i></a>
-                                    <a class="icon-list-social-link" href="https://www.facebook.com/Zanderson91"><i
-                                            class="fab fa-facebook"></i></a>
-                                    <a class="icon-list-social-link" href="https://www.github.com/Zanderson91"><i
-                                            class="fab fa-github"></i></a>
+                        <div class="container px-5">
+                            <div class="row gx-5">
+                                <div class="col-lg-3">
+                                    <div class="icon-list-social mb-5">
+                                        <a class="icon-list-social-link"
+                                            href="https://www.linkedin.com/in/zack-anderson-2021"><i
+                                                class="fab fa-linkedin"></i></a>
+                                        <a class="icon-list-social-link"
+                                            href="https://www.instagram.com/zanderson2012/"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a class="icon-list-social-link" href="https://www.facebook.com/Zanderson91"><i
+                                                class="fab fa-facebook"></i></a>
+                                        <a class="icon-list-social-link" href="https://www.github.com/Zanderson91"><i
+                                                class="fab fa-github"></i></a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <div class="row gx-5">
-                                    <div class="col-lg-3 col-md-6 mb-5
+                                <div class="col-lg-9">
+                                    <div class="row gx-5">
+                                        <div class="col-lg-3 col-md-6 mb-5
                                                 mb-lg-0">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <hr class="my-5" />
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-md-6 small">Copyright &copy;
-                            Anderson 2021</div>
-                    </div>
-                </footer>
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                crossorigin="anonymous">
-            </script>
-            <script src="./scripts.js"></script>
-            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-            <script>
-                AOS.init({
-                    disable: 'mobile',
-                    duration: 600,
-                    once: true,
-                });
-            </script>
+                        <hr class="my-5" />
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-md-6 small">Copyright &copy;
+                                Anderson 2021</div>
+                        </div>
+                    </footer>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    crossorigin="anonymous">
+                    </script>
+                <script src="./scripts.js"></script>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init({
+                        disable: 'mobile',
+                        duration: 600,
+                        once: true,
+                    });
+                </script>
 
 </html>
